@@ -16,6 +16,10 @@ def print_fibonacci_pyramid(rows):
             index += 1
         print()  # Переход на новую строку
 
+# Укажите количество строк пирамиды
+rows = 23
+print_fibonacci_pyramid(rows)
+
 def factorial(n):
     if n == 0 or n == 1:
         return 1
@@ -24,6 +28,3 @@ def factorial(n):
 
 # Добавьте вызов функции в конец файла
 print(f"Факториал числа {rows}: {factorial(rows)}")
-# Укажите количество строк пирамиды
-rows = 23
-print_fibonacci_pyramid(rows)
